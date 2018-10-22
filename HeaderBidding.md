@@ -202,3 +202,6 @@ This is where it gets ...more... interesting. A lot of your testing is going to 
 1. Ask each vendor to whitelist/greylist your sandbox/testing environent. Otherwise, your bid requests will go through but since they don't recognize where the request originated they will not respond with any bids.
 2. Even after they whitelist/greylist your environment, there is still a chance you don't recieve any bids in return. But this situation is expected even when the site is live. In this case your ads should still render from Direct Sales in DFP (handled by ArcAds if configuration is correct).
 3. Your last way to test is to give a testing URL to the vendor and have them validate they are able to see the request correctly through their internal tools.
+
+### Working Implementation 
+Here is a link to [Boston Globe's working implementation of Header Bidding using ArcAds](https://github.com/wapopartners/Boston-Globe-PageBuilder-Fusion-Features/pull/233)
